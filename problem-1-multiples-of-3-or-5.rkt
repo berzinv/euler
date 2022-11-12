@@ -1,5 +1,6 @@
 #lang racket
 
+
 (define (filter-range fct cnt)
   (filter fct (range 1 cnt)))
 
